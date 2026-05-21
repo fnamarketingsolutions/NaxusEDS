@@ -22,7 +22,7 @@ const NAV_ITEMS = [
         label: "MEP Service",
         href: "/mep-service",
         desc: "Coordinated MEP drafting solutions ensuring accurate integration of mechanical, electrical, and plumbing systems.",
-      }, 
+      },
       {
         label: "Pool Engineering",
         href: "/pool-engineering",
@@ -109,6 +109,8 @@ const NAV_ITEMS = [
   { label: "Contact Us", href: "/contact-us" },
 ];
 
+const NAV_HEIGHT = 68;
+
 function getGridCols(count) {
   if (count <= 3) return 3;
   if (count <= 4) return 4;
@@ -131,7 +133,27 @@ const dropdownBtnClass = (open) =>
       : "bg-transparent text-[#1a1a1a] hover:bg-[#fdf2f1] hover:text-[#c0392b]",
   ].join(" ");
 
-function MegaMenuDropdown({ item }) {
+// For a fixed navbar the bottom is always NAV_HEIGHT from the top of the viewport.
+// We still use a ref-based measurement so any dynamic height changes (e.g. wrapping)
+// are reflected in the mega-menu and mobile drawer positions.
+function useNavBottom(navRef) {
+  const [bottom, setBottom] = useState(NAV_HEIGHT);
+
+  useEffect(() => {
+    const update = () => {
+      if (navRef.current) {
+        setBottom(navRef.current.offsetHeight);
+      }
+    };
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, [navRef]);
+
+  return bottom;
+}
+
+function MegaMenuDropdown({ item, navBottom }) {
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
 
@@ -240,7 +262,10 @@ function MegaMenuDropdown({ item }) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
-            className="fixed inset-x-0 top-[68px] z-[998] border-t-2 border-b border-[#c0392b] border-b-[#f0e8e7] bg-white py-8 shadow-[0_12px_40px_rgba(0,0,0,0.10)]"
+            // Use the live navBottom value so this panel always sits flush
+            // under the sticky navbar no matter how far the page is scrolled.
+            style={{ top: navBottom }}
+            className="fixed inset-x-0 z-[998] border-t-2 border-b border-[#c0392b] border-b-[#f0e8e7] bg-white py-8 shadow-[0_12px_40px_rgba(0,0,0,0.10)]"
           >
             <div className="mx-auto max-w-7xl px-6 lg:px-10">
               <div className="mb-7 flex items-center gap-2.5 border-b border-[#f0e8e7] pb-4">
@@ -392,24 +417,28 @@ function MobileMenuItem({ item, depth = 0 }) {
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled] = useState(true); // fixed navbar always shows shadow
+  const navRef = useRef(null);
+  const navBottom = useNavBottom(navRef);
 
+  // Lock body scroll only on mobile; desktop mega menus should not lock scroll.
   useEffect(() => {
-    const handler = () => setScrolled(window.scrollY > 10);
-    window.addEventListener("scroll", handler);
-    return () => window.removeEventListener("scroll", handler);
-  }, []);
-
-  useEffect(() => {
-    document.body.classList.toggle("overflow-hidden", mobileOpen);
-    return () => document.body.classList.remove("overflow-hidden");
+    if (mobileOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [mobileOpen]);
 
   return (
     <>
       <nav
+        ref={navRef}
         className={[
-          "sticky top-0 z-[999] w-full max-w-[100vw] bg-white border-b-[1.5px] transition-shadow duration-300",
+          "fixed top-0 left-0 right-0 z-[999] w-full max-w-[100vw] bg-white border-b-[1.5px] transition-shadow duration-300",
           scrolled
             ? "border-[#f0e8e7] shadow-[0_2px_20px_rgba(192,57,43,0.07)]"
             : "border-[#f5f0ef] shadow-none",
@@ -417,7 +446,6 @@ export default function Navbar() {
       >
         <div className="mx-auto flex h-[68px] max-w-[90%] items-center justify-between gap-4 px-4 sm:px-6">
           <div className="flex shrink-0 items-center gap-2.5">
-            
             <div>
               <div className="text-base leading-tight font-bold tracking-tight text-[#1a1a1a]">
                 Nexus<span className="text-[#c0392b]">EDS</span>
@@ -430,7 +458,7 @@ export default function Navbar() {
 
           <div className="hidden min-w-0 flex-1 items-center justify-end gap-0.5 overflow-hidden xl:flex">
             {NAV_ITEMS.map((item, i) => (
-              <MegaMenuDropdown key={i} item={item} />
+              <MegaMenuDropdown key={i} item={item} navBottom={navBottom} />
             ))}
           </div>
 
@@ -447,25 +475,33 @@ export default function Navbar() {
         </div>
       </nav>
 
+      {/* Spacer so page content starts below the fixed navbar */}
+      <div style={{ height: navBottom }} />
+
       <AnimatePresence>
         {mobileOpen && (
           <>
+            {/* Backdrop — starts below the sticky navbar */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.25 }}
               onClick={() => setMobileOpen(false)}
-              className="fixed inset-0 z-[1000] bg-black/45"
+              style={{ top: navBottom }}
+              className="fixed inset-x-0 bottom-0 z-[1000] bg-black/45"
             />
 
+            {/* Drawer — anchored below the sticky navbar so the header stays visible */}
             <motion.div
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 28, stiffness: 260 }}
-              className="fixed top-0 right-0 z-[1001] flex h-dvh w-[min(100%,320px)] flex-col overflow-y-auto bg-white shadow-[-4px_0_30px_rgba(0,0,0,0.12)]"
+              style={{ top: navBottom }}
+              className="fixed right-0 bottom-0 z-[1001] flex w-[min(100%,320px)] flex-col overflow-y-auto bg-white shadow-[-4px_0_30px_rgba(0,0,0,0.12)]"
             >
+              {/* Sticky inner header inside drawer */}
               <div className="sticky top-0 z-[1] flex items-center justify-between border-b-[1.5px] border-[#f0e8e7] bg-white px-6 py-4">
                 <div className="flex items-center gap-2.5">
                   <div className="flex h-[34px] w-[34px] shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-[#c0392b] to-[#922b21]">
