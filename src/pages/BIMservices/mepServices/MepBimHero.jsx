@@ -6,7 +6,7 @@ import MepWhyChoose from './MepWhyChoose';
 import MepProjects from './MepProjects';
 import MepFaq from './MepFaq';
 
-const MepBIMHero = () =>
+const MepBimHero = () =>
      {
   return (
   <>
@@ -64,4 +64,4 @@ const MepBIMHero = () =>
   </>
   );
 }
-export default MepBIMHero;
+export default MepBimHero;

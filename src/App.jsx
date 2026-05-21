@@ -12,7 +12,7 @@ import FacadeBuildingHero from "./pages/architecturalServices/fecadeBuildings/Fa
 import VisualizationHero from "./pages/architecturalServices/visualization/VisualizationHero";
 import ArchitecturalBIMHero from "./pages/BIMservices/architecturalBIM/ArchitecturalBIMHero";
 import StructuralBIMHero from "./pages/BIMservices/structuralBIMServices/StructuralBIMHero";
-import MepBIMHero from "./pages/BIMservices/mepServices/MEPBIMHero";
+import MepBimHero from "./pages/BIMservices/mepServices/MepBimHero";
 import ClashDetectionHero from "./pages/BIMservices/cashDetection/ClashDetectionHero";
 import BIMCoordinationHero from "./pages/BIMservices/bimCordination/BIMCoordinationHero";
 import CADToBIMHero from "./pages/BIMservices/CADtoBIM/CADToBIMHero";
@@ -47,7 +47,7 @@ const App = () => {
 
           <Route path="/architectural-bim-services" element={<ArchitecturalBIMHero />} />
           <Route path="/structural-bim-services" element={<StructuralBIMHero/>}/>
-          <Route path="/mep-bim-services" element={<MepBIMHero/>}/>
+          <Route path="/mep-bim-services" element={<MepBimHero/>}/>
           <Route path="/clash-detection-services" element={<ClashDetectionHero/>}/>
           <Route path="/bim-coordination-services" element={<BIMCoordinationHero/>}/>
           <Route path="/cad-to-bim-services" element={<CADToBIMHero/>}/>
