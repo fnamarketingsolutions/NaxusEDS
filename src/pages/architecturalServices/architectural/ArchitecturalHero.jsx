@@ -3,7 +3,7 @@ import ServicesBlock from './ServicesBlock';
 import ModelBlock from './ModelBlock';
 import ReviewCarousel from './ReviewCarousel';
 import Workflow from './Workflow';
-import FAQ from './Faq';
+import FAQ from './FAQ';
 import WhyChooseUs from './WhyChooseUs';
 
 export default function ArchitecturalHero() {
