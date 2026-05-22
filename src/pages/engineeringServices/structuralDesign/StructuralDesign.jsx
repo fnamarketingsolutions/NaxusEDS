@@ -4,7 +4,7 @@ import { HiOutlineCheckCircle, HiOutlineArrowSmRight } from 'react-icons/hi';
 import StructuralServices from './StructuralServices';
 import HowItWorks from './HowItWorks';
 import StructuralFAQ from './StructuralFAQ';
-import structuralImage from "../../../assets/engineeringAssets/structural.png"
+import structuralImage from "../../../assets/engineeringAssets/structural-hero.png"
 
 
 const StructuralDesign = () => {
