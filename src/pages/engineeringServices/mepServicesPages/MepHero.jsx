@@ -2,6 +2,7 @@ import React from 'react';
 import MepDesignAndStats from './MepdesignAndStats';
 import MepServicesBlocks from './MepServicesBlocks';
 import MepWhyChooseUs from './MepWhyChooseUs';
+import mepHeroImage from '../../../assets/engineeringAssets/mep-hero.png';
 
 export default function MepHero() {
   // All hero layout configuration, copy changes for NaxusEDS, and styling contained inside a single component and return statement
@@ -40,11 +41,11 @@ export default function MepHero() {
         <div className="relative w-full h-[320px] sm:h-[400px] lg:h-[500px] order-1 lg:order-2 flex items-center justify-center">
           {/* Subtle geometric framing layer to support the white background theme */}
           <div className="absolute inset-0 bg-red-50/50 rounded-3xl transform rotate-3 scale-95 pointer-events-none"></div>
-          <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-red-50 rounded-xl -z-10 hidden sm:block"></div>
+          <div className="absolute -bottom-4 -left-4 w-24 h-24 rounded-xl -z-10 hidden sm:block"></div>
           
-          <div className="w-full h-full rounded-2xl overflow-hidden border border-neutral-200 shadow-md relative">
+          <div className="w-full h-full rounded-2xl overflow-hidden relative">
             <img 
-              src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80" 
+              src={mepHeroImage}
               alt="NaxusEDS MEP Building Systems Engineering" 
               className="w-full h-full object-cover object-center"
             />

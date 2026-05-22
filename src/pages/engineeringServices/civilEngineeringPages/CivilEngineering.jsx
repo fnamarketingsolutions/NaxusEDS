@@ -8,6 +8,7 @@ import CivilWhyChoose from './CivilWhyChoose';
 import CivilWorkFlow from './CivilWorkFlow';
 import CivilProjects from './CivilProjects';
 import ContactCTA from '../../../components/ContactCTA';
+import civilImage from '../../../assets/images/architect6.png';
 
 
   
@@ -71,16 +72,16 @@ const CivilEngineering = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
             viewport={{ once: true, margin: "-40px" }}
-            className="w-full h-[300px] sm:h-[400px] lg:h-[520px] overflow-hidden rounded-2xl shadow-lg relative group bg-gray-50"
+            className="w-full h-[300px] sm:h-[400px] lg:h-[520px] overflow-hidden relative"
           >
             {/* Visual theme color filter matrix */}
-            <div className="absolute inset-0 bg-[#A43025]/5 group-hover:bg-transparent transition-colors z-10 duration-500"></div>
+            <div className="absolute inset-0 group-hover:bg-transparent transition-colors z-10 duration-500"></div>
             
             {/* Native Image Component Tag */}
             <img 
-              src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=800&auto=format&fit=crop" 
+              src={civilImage}
               alt="NaxusEDS Civil Engineering Infrastructure Site Blueprint Plan" 
-              className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 scale-100 group-hover:scale-105 transition-all duration-700 ease-out"
+              className="w-full h-full object-cover-contain object-center group-hover:white-0 scale-100 group-hover:scale-105 transition-all duration-700 ease-out"
             />
           </motion.div>
         </div>

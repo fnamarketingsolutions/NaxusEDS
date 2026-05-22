@@ -6,6 +6,8 @@ import {
   HiOutlinePhone, 
   HiOutlineArrowSmRight 
 } from 'react-icons/hi';
+import contactImage from '../assets/images/architectural1.jpg'
+
 
 const ContactCTA = () => {
   return (
@@ -96,12 +98,12 @@ const ContactCTA = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="w-full h-[350px] sm:h-[450px] lg:h-[580px] overflow-hidden rounded-2xl shadow-xl relative group"
+            className="w-full h-[350px] sm:h-[450px] lg:h-[580px] relative group"
           >
             {/* Architectural structural preview background matrix */}
-            <div className="absolute inset-0 bg-[#A43025]/10 group-hover:bg-transparent transition-colors z-10 duration-500"></div>
+            <div className="absolute inset-0 group-hover:bg-transparent transition-colors z-10 duration-500"></div>
             <img 
-              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1470&auto=format&fit=crop" 
+              src={contactImage}
               alt="NaxusEDS Architectural Solutions" 
               className="w-full h-full object-cover object-center scale-100 group-hover:scale-105 transition-all duration-700 ease-out"
             />

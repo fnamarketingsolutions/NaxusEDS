@@ -1,6 +1,7 @@
 import React from 'react';
 import PoolEngineeringAbout from './PoolEngineeringAbout';
 import PoolEngineeringWhyChooseUs from './PoolEngineeringWhyChooseUs';
+import poolHeroImage from '../../../assets/engineeringAssets/pool-hero.jpg';
 
 export default function PoolEngineeringHero() {
   // All pool layout configuration, copy changes for NaxusEDS, and styling contained inside a single component and return statement
@@ -37,11 +38,11 @@ export default function PoolEngineeringHero() {
           <div className="absolute inset-0 bg-red-50/50 rounded-3xl transform rotate-3 scale-95 pointer-events-none"></div>
           <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-red-50 rounded-xl -z-10 hidden sm:block"></div>
           
-          <div className="w-full h-full rounded-2xl overflow-hidden border border-neutral-200 shadow-md relative">
+          <div className="w-full h-full rounded-2xl overflow-hidden relative">
             <img 
-              src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80" 
+              src={poolHeroImage}
               alt="NaxusEDS Luxury Commercial Pool System Design and Filtration Integration" 
-              className="w-full h-full object-cover object-center"
+              className="w-full h-full object-cover-contain object-center"
             />
             {/* Status overlay badge */}
             <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur-sm border border-neutral-200 px-4 py-2 rounded-lg flex items-center gap-2 shadow-sm">

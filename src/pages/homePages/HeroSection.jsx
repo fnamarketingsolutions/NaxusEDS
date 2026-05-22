@@ -5,6 +5,7 @@ import WhyChoose from "./WhyChoose";
 import ContactCTA from "../../components/ContactCTA";
 import Reviews from "./Reviews";
 import heroImage from "../../assets/images/hero-img.jpg";
+import { Link } from "react-router-dom";
 
 
 const HeroSection = () => {
@@ -112,6 +113,7 @@ const HeroSection = () => {
           </svg>
         </motion.button>
 
+        <Link to="/contact-us">
         <motion.a
           href="#"
           whileHover={{ x: 3 }}
@@ -128,6 +130,7 @@ const HeroSection = () => {
             />
           </svg>
         </motion.a>
+        </Link>
       </motion.div>
 
       <motion.div

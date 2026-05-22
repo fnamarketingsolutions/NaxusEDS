@@ -4,6 +4,8 @@ import { HiOutlineCheckCircle, HiOutlineArrowSmRight } from 'react-icons/hi';
 import StructuralServices from './StructuralServices';
 import HowItWorks from './HowItWorks';
 import StructuralFAQ from './StructuralFAQ';
+import structuralImage from "../../../assets/engineeringAssets/structural.png"
+
 
 const StructuralDesign = () => {
   // Core technical capabilities list
@@ -63,16 +65,16 @@ const StructuralDesign = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
             viewport={{ once: true, margin: "-40px" }}
-            className="w-full h-[300px] sm:h-[400px] lg:h-[520px] overflow-hidden rounded-2xl shadow-lg relative group bg-gray-50"
+            className="w-full h-[300px] sm:h-[400px] lg:h-[520px] overflow-hidden rounded-2xl relative group bg-gray-50"
           >
             {/* Visual branding color overlay matrix */}
-            <div className="absolute inset-0 bg-[#A43025]/5 group-hover:bg-transparent transition-colors z-10 duration-500"></div>
+            <div className="absolute inset-0 group-hover:bg-transparent transition-colors z-10 duration-500"></div>
             
             {/* Structural Blueprint Drawing Image Reference Tag */}
             <img 
-              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&auto=format&fit=crop" 
-              alt="NaxusEDS Structural Engineering Blueprint Detailing" 
-              className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 scale-100 group-hover:scale-105 transition-all duration-700 ease-out"
+              src={structuralImage}
+              alt="NaxusEDS Structural Engineering Detailing" 
+              className="w-full h-full object-cover-contain object-center group-hover:white-0 scale-100 group-hover:scale-105 transition-all duration-700 ease-out"
             />
           </motion.div>
         </div>

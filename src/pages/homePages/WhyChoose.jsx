@@ -6,31 +6,35 @@ import {
   HiOutlineGlobeAlt
 } from 'react-icons/hi';
 import { motion } from 'framer-motion';
+import whyChoose1 from '../../assets/images/architect3.jpg';
+import whyChoose2 from '../../assets/images/architect4.jpg';
+import whyChoose3 from '../../assets/images/architect5.jpg';
+import whyChoose4 from '../../assets/images/architect6.png';
 
 const features = [
   { 
     title: "Deep Domain Expertise", 
     desc: "Engage with a highly qualified and experienced team of subject matter experts.", 
     icon: <HiOutlineUserGroup />,
-    img: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=600&auto=format&fit=crop"
+    img: whyChoose1
   },
   { 
     title: "Unparalleled Efficiency", 
     desc: "Experience hands-on guidance and support right from project initiation to end delivery.", 
     icon: <HiOutlineLink />,
-    img: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=600&auto=format&fit=crop"
+    img: whyChoose2
   },
   { 
     title: "Rapid TAT and Delivery", 
     desc: "Eliminate worries about time zones and experience instant turnarounds.", 
     icon: <HiOutlineClock />,
-    img: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=600&auto=format&fit=crop"
+    img: whyChoose3
   },
   { 
     title: "Client Centric Workflow", 
     desc: "Get round-the-clock updates from an agile team with dedicated client communication.", 
     icon: <HiOutlineGlobeAlt />,
-    img: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=600&auto=format&fit=crop"
+    img: whyChoose4
   },
 ];
 

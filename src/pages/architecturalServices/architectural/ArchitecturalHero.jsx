@@ -5,6 +5,7 @@ import ReviewCarousel from './ReviewCarousel';
 import Workflow from './Workflow';
 import FAQ from './FAQ';
 import WhyChooseUs from './WhyChooseUs';
+import architecturalHeroImage from '../../../assets/images/architectural1.jpg';
 
 export default function ArchitecturalHero() {
   return (
@@ -55,9 +56,9 @@ export default function ArchitecturalHero() {
 
         {/* Right Side: Image */}
         <div className="order-1 lg:order-2 w-full">
-          <div className="relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-xl shadow-slate-200">
+          <div className="relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-2xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80"
+              src={architecturalHeroImage}
               alt="Architectural blueprints and drafting tools"
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500 ease-out"
             />

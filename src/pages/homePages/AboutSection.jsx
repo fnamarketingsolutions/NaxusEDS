@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import architecturalImage from '../../assets/images/architectural1.jpg';
 
 const AboutSection = () => {
   return (
@@ -17,9 +18,9 @@ const AboutSection = () => {
           <div className="relative">
             {/* Main Image */}
             <img 
-              src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2062&auto=format&fit=crop" 
+              src={architecturalImage} 
               alt="About NaxusEDS" 
-              className="w-full h-[400px] md:h-[550px] object-cover rounded-sm shadow-2xl"
+              className="w-full h-[400px] md:h-[550px] object-cover "
             />
             {/* Decorative Accent Square */}
             <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-[#A43025] -z-10 hidden md:block"></div>
