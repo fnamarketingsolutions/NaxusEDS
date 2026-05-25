@@ -8,7 +8,7 @@ import {
 } from 'react-icons/hi';
  import structuralStepImage from '../../../assets/engineeringAssets/structural-Steps.png';
 
-const HowItWorksCompact = () => {
+const HowItWorks = () => {
   // Step-by-step structural engineering lifecycle data
   const steps = [
     {
@@ -126,4 +126,4 @@ const HowItWorksCompact = () => {
   );
 };
 
-export default HowItWorksCompact;
+export default HowItWorks;
