@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CivilWorkflow() {
+const CivilWorkflow = () => {
   const steps = [
     {
       number: "01",
@@ -64,4 +64,6 @@ export default function CivilWorkflow() {
       </div>
     </section>
   );
-}
+};
+
+export default CivilWorkflow;

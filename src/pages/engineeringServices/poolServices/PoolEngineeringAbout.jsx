@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function PoolEngineeringAbout() {
+const PoolEngineeringAbout = () => {
   // All descriptive text blocks, structural alignment layers, and responsive typography within a single component and return statement
   return (
     <section className="py-16 px-4 md:px-8 bg-white font-sans text-neutral-800">
@@ -43,4 +43,6 @@ export default function PoolEngineeringAbout() {
       </div>
     </section>
   );
-}
+};
+
+export default PoolEngineeringAbout;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CivilEngineeringServices() {
+const CivilEngineeringServices = () => {
   // All service data, styles, and JSX contained within a single component and a single return statement
   return (
     <section className="py-16 px-4 md:px-8 bg-white font-sans text-neutral-800">
@@ -125,4 +125,6 @@ export default function CivilEngineeringServices() {
       </div>
     </section>
   );
-}
+};
+
+export default CivilEngineeringServices;

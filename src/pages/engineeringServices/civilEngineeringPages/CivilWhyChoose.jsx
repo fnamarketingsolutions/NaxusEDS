@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CivilWhyChoose() {
+const CivilWhyChoose = () => {
   return (
     <section className="py-16 px-4 md:px-8 bg-neutral-50 border-b border-neutral-100 font-sans text-neutral-800">
       <div className="max-w-7xl mx-auto">
@@ -86,4 +86,6 @@ export default function CivilWhyChoose() {
       </div>
     </section>
   );
-}
+};
+
+export default CivilWhyChoose;

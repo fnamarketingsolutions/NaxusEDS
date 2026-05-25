@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CivilProjects() {
+const CivilProjects = () => {
   const projects = [
     {
       title: "The Zenith Commercial Hub",
@@ -69,4 +69,6 @@ export default function CivilProjects() {
       </div>
     </section>
   );
-}
+};
+
+export default CivilProjects;

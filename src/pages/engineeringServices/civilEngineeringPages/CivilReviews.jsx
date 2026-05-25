@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function CivilReviews() {
+const CivilReviews = () => {
   const [currentReview, setCurrentReview] = useState(0);
   
   const reviews = [
@@ -98,4 +98,6 @@ export default function CivilReviews() {
       </div>
     </section>
   );
-}
+};
+
+export default CivilReviews;

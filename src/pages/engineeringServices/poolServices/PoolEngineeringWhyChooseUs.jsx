@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function PoolEngineeringWhyChooseUs() {
+const PoolEngineeringWhyChooseUs = () => {
   // All configuration data, structural text blocks, and responsive 4-column layout inside a single component and return statement
   return (
     <section className="py-16 px-4 md:px-8 bg-white font-sans text-neutral-800">
@@ -100,4 +100,6 @@ export default function PoolEngineeringWhyChooseUs() {
       </div>
     </section>
   );
-}
+};
+
+export default PoolEngineeringWhyChooseUs;

@@ -3,7 +3,8 @@ import PoolEngineeringAbout from './PoolEngineeringAbout';
 import PoolEngineeringWhyChooseUs from './PoolEngineeringWhyChooseUs';
 import poolHeroImage from '../../../assets/engineeringAssets/pool-hero.jpg';
 
-export default function PoolEngineeringHero() {
+ const PoolEngineeringHero = () =>
+   {
   // All pool layout configuration, copy changes for NaxusEDS, and styling contained inside a single component and return statement
   return (
   <>
@@ -59,4 +60,6 @@ export default function PoolEngineeringHero() {
       <PoolEngineeringWhyChooseUs/>
 </>
   );
-}
+};
+
+export default PoolEngineeringHero;
