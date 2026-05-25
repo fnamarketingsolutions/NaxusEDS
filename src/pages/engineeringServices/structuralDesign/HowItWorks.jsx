@@ -6,7 +6,7 @@ import {
   HiOutlinePencilAlt, 
   HiOutlineShieldCheck 
 } from 'react-icons/hi';
- import structuralStepImage from '../../../assets/engineeringAssets/structural-Steps.png';
+ import structuralStepImage from '../../../assets/engineeringAssets/structural-steps.png';
 
 const HowItWorks = () => {
   // Step-by-step structural engineering lifecycle data
