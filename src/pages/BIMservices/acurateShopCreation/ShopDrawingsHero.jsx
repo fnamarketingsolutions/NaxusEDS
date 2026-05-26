@@ -6,7 +6,7 @@ import ShopDrawingsSupport from './ShopDrawingsSupport';
 import ShopDrawingsWorkflow from './ShopDrawingsWorkflow';
 import ShopDrawingsWhyChoose from './ShopDrawingsWhyChoose';
 import ShopDrawingsFaq from './ShopDrawingsFaq';
-
+import shopDrawingsImage from '../../../assets/bimAssets/shop-drawing.jpg';
 export default function ShopDrawingsHero() {
   return (
   <>
@@ -55,7 +55,7 @@ export default function ShopDrawingsHero() {
             <div className="absolute -inset-1 rounded-2xl bg-[#A43025]/5 opacity-60 blur-xl" />
             <div className="relative aspect-[4/3] w-full rounded-2xl bg-slate-50 border border-slate-200 overflow-hidden shadow-xl">
               <img 
-                src="/api/placeholder/600/450" 
+                src={shopDrawingsImage} 
                 alt="Detailed structural fabrication blueprint sheet extraction view" 
                 className="w-full h-full object-cover"
               />

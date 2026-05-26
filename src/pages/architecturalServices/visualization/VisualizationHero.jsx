@@ -3,6 +3,7 @@ import VisualizationExpertise from './VisualizationExpertise';
 import VisualizationTestimonials from './VisualizationTestimonials';
 import VisualizationWhyChoose from './VisualizationWhyChoose';
 import VisualizationFAQs from './VisualizationFAQs';
+import visualizationImage from '../../../assets/architecturalAssets/3d-visualization.jpg'
 
 export default function VisualizationHero() {
   return (
@@ -32,7 +33,7 @@ export default function VisualizationHero() {
         {/* Right Side: Responsive Image Window */}
         <div className="w-full h-[350px] sm:h-[450px] lg:h-[500px] rounded-xl overflow-hidden border border-slate-300 shadow-md relative bg-slate-50">
           <img 
-            src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1000&q=80" 
+            src={visualizationImage} 
             alt="3D Architectural Visualization Hero Render" 
             className="w-full h-full object-cover"
           />

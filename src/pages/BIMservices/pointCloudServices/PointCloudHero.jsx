@@ -6,6 +6,8 @@ import PointCloudScope from './PointCloudScope';
 import PointCloudFaq from './PointCloudFaq';
 import PointCloudProjects from './PointCloudProjects';
 import PointCloudParticular from './PointCloudParticular';
+import pointCloudImage from '../../../assets/bimAssets/point-cloud-bim.webp';
+
 
 export default function PointCloudHero() {
   return (
@@ -55,7 +57,7 @@ export default function PointCloudHero() {
             <div className="absolute -inset-1 rounded-2xl bg-[#A43025]/5 opacity-60 blur-xl" />
             <div className="relative aspect-[4/3] w-full rounded-2xl bg-slate-50 border border-slate-200 overflow-hidden shadow-xl">
               <img 
-                src="/api/placeholder/600/450" 
+                src={pointCloudImage} 
                 alt="Laser scan data points transforming into smart Revit modeling structure" 
                 className="w-full h-full object-cover"
               />

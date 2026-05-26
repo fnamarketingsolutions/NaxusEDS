@@ -6,7 +6,7 @@ import RevitFamilySupport from './RevitFamilySupport';
 import RevitFamilyWorkflow from './RevitFamilyWorkflow';
 import RevitFamilyWhyChoose from './RevitFamilyWhyChoose';
 import RevitFamilyFaq from './RevitFamilyFaq';
-
+import revitFamilyImage from '../../../assets/bimAssets/revit-family-bim.jpg';
 
 export default function RevitFamilyHero() {
   return (
@@ -56,7 +56,7 @@ export default function RevitFamilyHero() {
             <div className="absolute -inset-1 rounded-2xl bg-[#A43025]/5 opacity-60 blur-xl" />
             <div className="relative aspect-[4/3] w-full rounded-2xl bg-slate-50 border border-slate-200 overflow-hidden shadow-xl">
               <img 
-                src="/api/placeholder/600/450" 
+                src={revitFamilyImage} 
                 alt="3D Parametric Revit Family Element Engineering View" 
                 className="w-full h-full object-cover"
               />

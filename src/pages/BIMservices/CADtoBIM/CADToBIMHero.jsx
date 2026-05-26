@@ -6,6 +6,7 @@ import CadToBimSupport from './CadToBimSupport';
 import CadToBimWorkflow from './CadToBimWorkflow';
 import CadToBimWhyChoose from './CadToBimWhyChoose';
 import CadToBimFaq from './CadToBimFaq';
+import cadToBimImage from '../../../assets/bimAssets/cadtobim.webp';
 
 export default function CADToBIMHero() {
   return (
@@ -53,9 +54,9 @@ export default function CADToBIMHero() {
             className="relative w-full max-w-xl mx-auto lg:max-w-none"
           >
             <div className="absolute -inset-1 rounded-2xl bg-[#A43025]/5 opacity-60 blur-xl" />
-            <div className="relative aspect-[4/3] w-full rounded-2xl bg-slate-50 border border-slate-200 overflow-hidden shadow-xl">
+            <div className="relative w-full">
               <img 
-                src="/api/placeholder/600/450" 
+                src={cadToBimImage} 
                 alt="2D Drafting sheet translating to a 3D building information model" 
                 className="w-full h-full object-cover"
               />

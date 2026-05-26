@@ -6,6 +6,7 @@ import BIMWorkflow from './BIMWorkflow';
 import WhyBIMService from './WhyBIMService';
 import BIMFAQs from './BIMFAQs';
 import ContactCTA from '../../../components/ContactCTA';
+import architecturalBIMImage from '../../../assets/bimAssets/architecture-bim.png';
 
 export default function ArchitecturalBIMHero() {
   return (
@@ -41,7 +42,7 @@ export default function ArchitecturalBIMHero() {
         {/* Right Side: Responsive Image */}
         <div className="w-full h-[350px] sm:h-[450px] lg:h-[500px] rounded-xl overflow-hidden border border-slate-300 shadow-md bg-slate-50">
           <img 
-            src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80" 
+            src={architecturalBIMImage} 
             alt="Architectural Parametric BIM Model System" 
             className="w-full h-full object-cover"
           />

@@ -6,6 +6,8 @@ import BimCoordSupport from './BimCoordSupport';
 import BimCoordWorkflow from './BimCoordWorkflow';
 import BimCoordWhyChoose from './BimCoordWhyChoose';
 import BimCoordFaq from './BimCoordFaq';
+import bimCoordinationImage from '../../../assets/bimAssets/bim-cordination.webp';
+
 
 export default function BIMCoordinationHero() {
   return (
@@ -53,9 +55,9 @@ export default function BIMCoordinationHero() {
             className="relative w-full max-w-xl mx-auto lg:max-w-none"
           >
             <div className="absolute -inset-1 rounded-2xl bg-[#A43025]/5 opacity-60 blur-xl" />
-            <div className="relative aspect-[4/3] w-full rounded-2xl bg-slate-50 border border-slate-200 overflow-hidden shadow-xl">
+            <div className="relative w-full">
               <img 
-                src="/api/placeholder/600/450" 
+                src={bimCoordinationImage} 
                 alt="BIM Coordination Framework Blueprint" 
                 className="w-full h-full object-cover"
               />

@@ -3,6 +3,7 @@ import FacadeCategories from './FacadeCategories';
 import FacadeWorkFlow from './FacadeWorkFlow';
 import WhyChooseFacade from './WhyChooseFacade';
 import FacadeFAQs from './FacadeFAQs';
+import facadeImage from '../../../assets/architecturalAssets/facade-hero-image.jpg';
 
 
 export default function FacadeHero() {
@@ -54,7 +55,7 @@ export default function FacadeHero() {
           <div className="p-2 bg-white border border-slate-400 rounded shadow-lg">
             <div className="relative overflow-hidden aspect-[4/3] sm:aspect-[16/11] lg:aspect-[4/3] border border-slate-300">
               <img
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
+                src={facadeImage}
                 alt="NaxusEDS High-rise modern glass facade building engineering structure"
                 className="w-full h-full object-cover"
               />

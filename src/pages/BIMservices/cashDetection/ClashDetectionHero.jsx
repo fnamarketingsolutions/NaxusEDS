@@ -6,6 +6,8 @@ import ClashSupport from './ClashSupport';
 import ClashWorkflow from './ClashWorkflow';
 import ClashWhyChoose from './ClashWhyChoose';
 import ClashFaq from './ClashFaq';
+import clashDetectionImage from '../../../assets/bimAssets/clash-detection.jpg';
+
 
 export default function ClashDetectionHero() {
   return (
@@ -55,7 +57,7 @@ export default function ClashDetectionHero() {
             <div className="absolute -inset-1 rounded-2xl bg-[#A43025]/10 opacity-70 blur-lg" />
             <div className="relative aspect-[4/3] w-full rounded-2xl bg-slate-100 border border-slate-200 overflow-hidden shadow-xl">
               <img 
-                src="/api/placeholder/600/450" 
+                src={clashDetectionImage} 
                 alt="3D BIM Clash Detection Model Illustration" 
                 className="w-full h-full object-cover"
               />

@@ -6,6 +6,7 @@ import StructuralCoreServices from './StructuralCoreServices';
 import StructuralBIMWorkflow from './StructuralBIMWorkflow';
 import StructuralBIMFAQs from './StructuralBIMFAQs';
 import ContactCTA from '../../../components/ContactCTA';
+import structuralBIMImage from '../../../assets/bimAssets/structural-bim.webp';
 
 
 export default function StructuralBIMHero() {
@@ -42,7 +43,7 @@ export default function StructuralBIMHero() {
         {/* Right Side: Responsive Engineering Grid Frame */}
         <div className="w-full h-[350px] sm:h-[450px] lg:h-[500px] rounded-xl overflow-hidden border border-slate-300 shadow-md bg-slate-50">
           <img 
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80" 
+            src={structuralBIMImage} 
             alt="Structural BIM Framing and Steel Detailing Interface" 
             className="w-full h-full object-cover"
           />

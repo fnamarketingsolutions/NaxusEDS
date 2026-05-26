@@ -5,6 +5,7 @@ import MepBimSupport from './MepBimSupport';
 import MepWhyChoose from './MepWhyChoose';
 import MepProjects from './MepProjects';
 import MepFaq from './MepFaq';
+import mepBIMImage from '../../../assets/bimAssets/mep-bim.webp';
 
 const MepBimHero = () =>
      {
@@ -45,7 +46,7 @@ const MepBimHero = () =>
             <div className="absolute -inset-1 rounded-2xl bg-[#A43025]/10 opacity-70 blur-lg" />
             <div className="relative aspect-[4/3] w-full rounded-2xl bg-slate-100 border border-slate-200 overflow-hidden shadow-xl">
               <img 
-                src="/api/placeholder/600/450" 
+                src={mepBIMImage} 
                 alt="MEP BIM Model Engineering" 
                 className="w-full h-full object-cover"
               />
