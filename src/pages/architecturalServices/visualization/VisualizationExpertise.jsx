@@ -5,7 +5,7 @@ import VisualizationExpertise3 from '../../../Assets/bimAssets/expertise3.jpg';
 import VisualizationExpertise4 from '../../../Assets/bimAssets/expertise4.jpg';
 import VisualizationExpertise5 from '../../../Assets/bimAssets/expertise5.webp';
 import VisualizationExpertise6 from '../../../Assets/bimAssets/expertise6.jpg';
-import VisualizationExpertise7 from '../../../Assets/bimAssets/expertise7.webp';
+import VisualizationExpertise7 from '../../../Assets/bimAssets/expertise7.jpg';
 import VisualizationExpertise8 from '../../../Assets/bimAssets/expertise8.jpg';
 
 const images = [
