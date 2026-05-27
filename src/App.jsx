@@ -56,7 +56,6 @@ import FacadeBuildingHero from "./pages/architecturalServices/fecadeBuildings/Fa
 import VisualizationHero from "./pages/architecturalServices/visualization/VisualizationHero";
 import ArchitecturalBIMHero from "./pages/BIMservices/architecturalBIM/ArchitecturalBIMHero";
 import StructuralBIMHero from "./pages/BIMservices/structuralBIMServices/StructuralBIMHero";
-import MepBimHero from "./pages/BIMservices/mepServices/MepBimHero";
 import ClashDetectionHero from "./pages/BIMservices/cashDetection/ClashDetectionHero";
 import BIMCoordinationHero from "./pages/BIMservices/bimCordination/BIMCoordinationHero";
 import CADToBIMHero from "./pages/BIMservices/CADtoBIM/CADToBIMHero";
@@ -68,6 +67,7 @@ import LightGuage from "./pages/lightGuageSteel/LightGuageHero";
 import ContactHero from "./pages/contactPage/ContactHero";
 import PrivacyPolicy from "./pages/policies/PrivacyPolicy";
 import TermsAndConditions from "./pages/policies/TermsAndConditions";
+import MepBimHero from "./pages/BIMservices/mepServices/MepBimHero";
 
 const App = () => {
   return (
