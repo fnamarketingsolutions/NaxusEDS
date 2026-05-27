@@ -1,6 +1,6 @@
 import React from 'react';
-import StructuralBIMProjects1 from '../../../Assets/bimAssets/vertax-left.jpg';
-import StructuralBIMProjects2 from '../../../Assets/bimAssets/structural-right-image.jpg';
+import StructuralBIMProjects1 from '../../../assets/bimAssets/vertax-left.jpg';
+import StructuralBIMProjects2 from '../../../assets/bimAssets/structural-right-image.jpg';
 
 const projectsList = [
   {
