@@ -3,6 +3,10 @@ import { motion } from 'framer-motion';
 import { Layers, ArrowUpRight } from 'lucide-react';
 import AboutFabrication from './AboutFabrication';
 import MaterialLogisticsService from './MaterialLogisticsService';
+import rebarFabricationImage from '../../assets/images/rebar-process1.jpg';
+import rebarFabricationImage2 from '../../assets/images/rebar-fabrication.webp'
+import rebarFabricationImage3 from '../../assets/images/rebar-fabrication-process2.jpg'
+
 
 const categories = [
   {
@@ -86,13 +90,13 @@ export default function RebarFabricationHero() {
             className="lg:col-span-5 grid grid-cols-2 gap-4 auto-rows-max"
           >
             <div className="relative rounded-xl overflow-hidden border border-slate-200 shadow-md col-span-2 aspect-[16/9]">
-              <img src="/api/placeholder/600/350" alt="Heavy steel rebar inventory supply pile" className="w-full h-full object-cover" />
+              <img src={rebarFabricationImage} alt="Heavy steel rebar inventory supply pile" className="w-full h-full object-cover" />
             </div>
             <div className="relative rounded-xl overflow-hidden border border-slate-200 shadow-md aspect-square">
-              <img src="/api/placeholder/300/300" alt="Epoxy coated paving rebar close up layout" className="w-full h-full object-cover" />
+              <img src={rebarFabricationImage2} alt="Epoxy coated paving rebar close up layout" className="w-full h-full object-cover" />
             </div>
             <div className="relative rounded-xl overflow-hidden border border-slate-200 shadow-md aspect-square translate-y-4">
-              <img src="/api/placeholder/300/300" alt="Welded structural steel wire fabric mesh mesh sheets" className="w-full h-full object-cover" />
+              <img src={rebarFabricationImage3} alt="Welded structural steel wire fabric mesh mesh sheets" className="w-full h-full object-cover" />
             </div>
           </motion.div>
 

@@ -1,4 +1,7 @@
 import React from 'react';
+import mechenicalService from '../../../assets/bimAssets/mechanical-image.jpg'
+import plumbingService from '../../../assets/bimAssets/plumbing.jpg'
+import electricalService from '../../../assets/bimAssets/electrical.png'
 
 export default function MepServicesBlocks() {
   // All engineering data, styling configurations, and responsive structural grid within a single component and return statement
@@ -29,7 +32,7 @@ export default function MepServicesBlocks() {
               {/* Feature Image */}
               <div className="w-full h-56 bg-neutral-100 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1621905252507-b354bc25edac?auto=format&fit=crop&w=600&q=80" 
+                  src={mechenicalService} 
                   alt="Mechanical HVAC Duct Systems Engineering" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -66,7 +69,7 @@ export default function MepServicesBlocks() {
               {/* Feature Image */}
               <div className="w-full h-56 bg-neutral-100 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=600&q=80" 
+                  src={electricalService} 
                   alt="Electrical Power Control Systems Panel" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -103,7 +106,7 @@ export default function MepServicesBlocks() {
               {/* Feature Image */}
               <div className="w-full h-56 bg-neutral-100 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1581092162384-8987c1794ed9?auto=format&fit=crop&w=600&q=80" 
+                  src={plumbingService} 
                   alt="Plumbing Hydraulic Pipelines Engineering" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />

@@ -1,5 +1,6 @@
 import React from 'react';
 import Location from './Location';
+import contactHeroImage from '../../assets/images/contact-image.png';
 
 
 export default function ContactHero() {
@@ -43,7 +44,7 @@ export default function ContactHero() {
             </div>
             
             <img 
-              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80" 
+              src={contactHeroImage} 
               alt="Light Gauge Steel Fabrication Production Line" 
               className="w-full h-full object-cover transition duration-700 hover:scale-105"
             />

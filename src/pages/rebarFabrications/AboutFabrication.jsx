@@ -1,19 +1,21 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import aboutFabricationProcess1 from '../../assets/images/rebar-fabrication-proccess1.png'      
+import aboutFabricationProcess2 from '../../assets/images/rebar-fabrication-process2.jpg'
 
 const narrativeSections = [
   {
     tag: "Industrial Excellence",
     title: "Precision Rebar Fabrication Processes",
     text: "Our advanced production spaces reshape raw metal stock into specialized configuration forms matching engineering blueprints precisely. By leveraging computerized structural benders and precise automatic shears, we maintain absolute configuration matching down to the millimeter.",
-    image: "/api/placeholder/550/380",
+    image: aboutFabricationProcess1,
     isReverse: false
   },
   {
     tag: "Custom Adaptation",
     title: "Tailored Component Assemblies & Coatings",
     text: "From heavy industrial cages to targeted spacing accessories, we supply fully integrated reinforcement details directly to site locations. Our protective epoxy-coatings and galvanization tracks guard reinforcing structures against corrosion, locking down long-term lifecycle metrics.",
-    image: "/api/placeholder/550/380",
+    image: aboutFabricationProcess2,
     isReverse: true
   }
 ];

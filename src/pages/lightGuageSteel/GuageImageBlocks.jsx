@@ -1,17 +1,26 @@
 import React from 'react';
+import lightGuageSteelImage1 from '../../assets/images/light-guage-steel1.jpg';
+import lightGuageSteelImage2 from '../../assets/images/light-guage-steel2.avif';
+import lightGuageSteelImage3 from '../../assets/images/light-guage-steel3.webp';
+import lightGuageSteelImage4 from '../../assets/images/light-guage-steel4.jpg';
+import lightGuageSteelImage5 from '../../assets/images/light-guage-steel5.jpg';
+import lightGuageSteelImage6 from '../../assets/images/light-guage-steel6.jpg';
+import lightGuageSteelImage7 from '../../assets/images/light-guage-steel7.jpg';
+import lightGuageSteelImage8 from '../../assets/images/light-guage-steel8.webp';
+import lightGuageSteelImage9 from '../../assets/images/light-guage-steel9.webp';
 
 export default function GuageImageBlocks() {
   // Array holding 9 distinct image urls for standard img tags
   const galleryImages = [
-    "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1513828583835-c54171a79869?auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1535732759880-bbd5c7265e3f?auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1503596476-1c12a8ba09a9?auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1581092918056-0c4c3dad3785?auto=format&fit=crop&w=500&q=80",
-    "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=500&q=80"
+    lightGuageSteelImage1,
+    lightGuageSteelImage2,
+    lightGuageSteelImage3,
+    lightGuageSteelImage4,
+    lightGuageSteelImage5,
+    lightGuageSteelImage6,
+    lightGuageSteelImage7,
+    lightGuageSteelImage8,
+    lightGuageSteelImage9,
   ];
 
   return (

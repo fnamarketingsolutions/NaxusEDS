@@ -2,11 +2,13 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { HardHat, Activity, HelpCircle, Construction } from 'lucide-react';
 
+
+
 const services = [
   {
     title: 'Hard Clash Detection',
     description: 'Identifying structural components physically intersecting or occupying identical spatial parameters within the coordinated 3D model.',
-    image: '/api/placeholder/400/250',
+    image: 'https://images.unsplash.com/photo-1581094288338-2314dddb7eed?q=80&w=600&auto=format&fit=crop',
     icon: HardHat
   },
   {

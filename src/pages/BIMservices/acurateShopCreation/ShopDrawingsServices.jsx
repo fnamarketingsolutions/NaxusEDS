@@ -1,30 +1,34 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Wind, Waypoints, Zap, ShieldAlert } from 'lucide-react';
+import shopDrawingsService1 from '../../../assets/bimAssets/shop-drawing-service1.webp'
+import shopDrawingsService2 from '../../../assets/bimAssets/shop-drawing-service2.webp'
+import shopDrawingsService3 from '../../../assets/bimAssets/shop-drawing-service3.png'
+import shopDrawingsService4 from '../../../assets/bimAssets/shop-drawing-service4.png'
 
 const blocks = [
   {
     title: 'HVAC Ductwork Shop Drawings',
     description: 'Detailed, dimensioned layouts mapping sheet metal duct dimensions, hanger specifications, air terminal coordinates, and flange metrics.',
-    image: '/api/placeholder/400/250',
+    image: shopDrawingsService1,
     icon: Wind
   },
   {
     title: 'Plumbing & Piping Spool Sheets',
     description: 'Isolating segments of pipe assemblies into clean, shop-weldable spool representations detailing exact cut dimensions and joint positions.',
-    image: '/api/placeholder/400/250',
+    image: shopDrawingsService2,
     icon: Waypoints
   },
   {
     title: 'Electrical Conduit & Tray Spacings',
     description: 'Providing structural layouts tracking multi-tier cable trays, high-voltage panel alignments, and complex sleeve locations through core walls.',
-    image: '/api/placeholder/400/250',
+    image: shopDrawingsService3,
     icon: Zap
   },
   {
     title: 'Fire Sprinkler Network Submittals',
     description: 'Fully code-compliant blueprint sheets detailing sprinkler head coverage, pipe slopes, coupling variants, and specialized hydraulic data.',
-    image: '/api/placeholder/400/250',
+    image: shopDrawingsService4,
     icon: ShieldAlert
   }
 ];

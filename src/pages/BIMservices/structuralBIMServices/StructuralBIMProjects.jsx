@@ -1,4 +1,6 @@
 import React from 'react';
+import StructuralBIMProjects1 from '../../../Assets/bimAssets/vertax-left.jpg';
+import StructuralBIMProjects2 from '../../../Assets/bimAssets/structural-right-image.jpg';
 
 const projectsList = [
   {
@@ -6,14 +8,14 @@ const projectsList = [
     title: "The Vertex Commercial Complex",
     desc: "Full structural modeling execution of a 42-story commercial grid system. Engineered full structural coordination maps detailing rebar configuration matrices and comprehensive load transfer components synchronized perfectly to raw architectural sketches.",
     metric: "LOD 400 Steel Framing",
-    img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+    img: StructuralBIMProjects1
   },
   {
     id: 2,
     title: "Strata Industrial Logistics Hub",
     desc: "Developing high-fidelity warehouse framing assemblies with precise multi-tiered concrete foundations. All structural columns and overhead joists were fully detailed inside central cloud workshared models to track spatial limitations against industrial processing systems.",
     metric: "Zero Fabrication Field Clashes",
-    img: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
+    img: StructuralBIMProjects2
   }
 ];
 

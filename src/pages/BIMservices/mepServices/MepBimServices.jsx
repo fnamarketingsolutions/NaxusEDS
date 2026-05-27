@@ -1,29 +1,33 @@
 import React from 'react';
 import { Wind, Zap, Droplet, Layers } from 'lucide-react';
+import mechenicalService from '../../../assets/bimAssets/mechanical-image.jpg'
+import electricalService from '../../../assets/bimAssets/electrical.png'
+import plumbingService from '../../../assets/bimAssets/plumbing.jpg'
+import fireProtectionService from '../../../assets/bimAssets/fire-protection.jpg'
 
 const services = [
   {
     title: 'Mechanical & HVAC Engineering',
     description: 'Energy-efficient heating, ventilation, and air conditioning systems engineered for perfect indoor air quality and climate control.',
-    image: '/api/placeholder/400/250',
+    image: mechenicalService,
     icon: Wind
   },
   {
     title: 'Electrical & Power Systems',
     description: 'Comprehensive electrical layouts, lighting design, power distribution, and backup infrastructure for maximum resilience.',
-    image: '/api/placeholder/400/250',
+    image: electricalService,
     icon: Zap
   },
   {
     title: 'Plumbing & Public Health',
     description: 'Advanced water distribution systems, sustainable drainage solutions, rainwater harvesting, and waste treatment design.',
-    image: '/api/placeholder/400/250',
+    image: plumbingService,
     icon: Droplet
   },
   {
     title: 'Fire Protection Engineering',
     description: 'Fully integrated, compliant fire alarm, sprinkler networks, and life safety asset engineering to protect buildings and occupants.',
-    image: '/api/placeholder/400/250',
+    image: fireProtectionService,
     icon: Layers
   }
 ];

@@ -1,15 +1,22 @@
 import React from 'react';
+import VisualizationExpertise1 from '../../../Assets/bimAssets/expertise1.jpg';
+import VisualizationExpertise2 from '../../../Assets/bimAssets/expertise2.jpg';
+import VisualizationExpertise3 from '../../../Assets/bimAssets/expertise3.jpg';
+import VisualizationExpertise4 from '../../../Assets/bimAssets/expertise4.jpg';
+import VisualizationExpertise5 from '../../../Assets/bimAssets/expertise5.webp';
+import VisualizationExpertise6 from '../../../Assets/bimAssets/expertise6.jpg';
+import VisualizationExpertise7 from '../../../Assets/bimAssets/expertise7.webp';
+import VisualizationExpertise8 from '../../../Assets/bimAssets/expertise8.jpg';
 
 const images = [
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=400&q=80",
-  "https://images.unsplash.com/photo-1600607688210-c3f8869f698b?auto=format&fit=crop&w=400&q=80"
+  VisualizationExpertise1,
+  VisualizationExpertise2,
+  VisualizationExpertise3,
+  VisualizationExpertise4,
+  VisualizationExpertise5,
+  VisualizationExpertise6,
+  VisualizationExpertise7,
+  VisualizationExpertise8
 ];
 
 export default function VisualizationExpertise() {

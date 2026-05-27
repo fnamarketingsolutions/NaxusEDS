@@ -2,6 +2,7 @@ import React from 'react';
 import GuageImageBlocks from './GuageImageBlocks';
 import ContactCTA from '../../components/ContactCTA';
 import SectionReveal from '../../components/SectionReveal';
+import lightGuageSteelImage from '../../assets/images/light-guage-steel1.jpg';
 
 
 export default function LightGuageHero() {
@@ -29,19 +30,14 @@ export default function LightGuageHero() {
             >
               Our Gallery
             </a>
-            <a 
-              href="#capabilities" 
-              className="border-2 border-gray-900 hover:bg-gray-900 hover:text-white text-gray-900 font-semibold px-8 py-3 rounded transition duration-300 text-center"
-            >
-              Technical Specs
-            </a>
+            
           </div>
         </div>
 
         {/* Right Side: Image Block */}
         <div className="order-2 lg:order-2 w-full">
           <img 
-            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" 
+            src={lightGuageSteelImage} 
             alt="Light Gauge Steel Structural Framing" 
             className="w-full h-[320px] sm:h-[450px] object-cover rounded-lg shadow-xl"
           />

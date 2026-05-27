@@ -1,30 +1,34 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Layout, Building2, Eye, Cpu } from 'lucide-react';
+import cadToBimService1 from '../../../assets/bimAssets/cadtobim-service1.jpg'
+import cadToBimService2 from '../../../assets/bimAssets/cadtobim-service2.webp'
+import cadToBimService3 from '../../../assets/bimAssets/cadtobim-service3.webp'
+import cadToBimService4 from '../../../assets/bimAssets/cadtobim-service4.webp'
 
 const conversionServices = [
   {
     title: '2D Draft to 3D BIM Modeling',
     description: 'Converting standard DWG and DXF draft sheets directly into fully realized, data-rich architectural and structural 3D environments.',
-    image: '/api/placeholder/400/250',
+    image: cadToBimService1,
     icon: Layout
   },
   {
     title: 'Paper & PDF to BIM Migration',
     description: 'Transforming legacy scanned physical prints and blueprint books into fully flexible, parametric modeling configurations.',
-    image: '/api/placeholder/400/250',
+    image: cadToBimService2,
     icon: Building2
   },
   {
     title: 'Point Cloud to BIM (Scan to BIM)',
     description: 'Processing high-resolution laser site scans into accurate, verified as-built models for restoration and expansion planning.',
-    image: '/api/placeholder/400/250',
+    image: cadToBimService3,
     icon: Eye
   },
   {
     title: 'Parametric Family Creation',
     description: 'Developing intelligent, multi-size custom components and equipment assets complete with exact manufacturing documentation.',
-    image: '/api/placeholder/400/250',
+    image: cadToBimService4,
     icon: Cpu
   }
 ];

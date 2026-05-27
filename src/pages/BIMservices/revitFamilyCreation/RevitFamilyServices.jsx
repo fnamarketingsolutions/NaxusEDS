@@ -1,30 +1,34 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Fan, ToggleLeft, Activity, Layers } from 'lucide-react';
+import revitFamilyService1 from '../../../assets/bimAssets/revit-family-service1.jpg'
+import revitFamilyService2 from '../../../assets/bimAssets/revit-family-service2.webp'
+import revitFamilyService3 from '../../../assets/bimAssets/revit-family-service3.webp'
+import revitFamilyService4 from '../../../assets/bimAssets/revit-family-service4.jpg'
 
 const optionsList = [
   {
     title: 'MEP Component Modeling',
     description: 'Developing highly complex smart assets for HVAC units, electrical distribution panels, plumbing valves, and fire safety systems.',
-    image: '/api/placeholder/400/250',
+    image: revitFamilyService1,
     icon: Fan
   },
   {
     title: 'Parametric Variation Systems',
     description: 'Writing custom geometric rule constraints to allow single files to alter length, width, voltage, and capacities instantly.',
-    image: '/api/placeholder/400/250',
+    image: revitFamilyService2,
     icon: ToggleLeft
   },
   {
     title: 'Architectural & Fixture Assets',
     description: 'Constructing dimensionally precise models for complex windows, custom storage units, retail furniture, and sanitization fixtures.',
-    image: '/api/placeholder/400/250',
+    image: revitFamilyService3,
     icon: Layers
   },
   {
     title: 'Structural Steel Elements',
     description: 'Drafting data-dense column frames, foundation pads, truss connections, and embedded anchors matching calculation parameters.',
-    image: '/api/placeholder/400/250',
+    image: revitFamilyService4,
     icon: Activity
   }
 ];

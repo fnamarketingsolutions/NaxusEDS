@@ -1,4 +1,5 @@
 import React from 'react';
+import StickCurtainWall from '../../../assets/architecturalAssets/curtain.jpg';
 
 const facadeCategories = [
   {
@@ -9,7 +10,7 @@ const facadeCategories = [
   {
      title: "Stick Curtain Wall",
     desc: "Versatile, field-installed framing systems where components are assembled piece-by-piece for design flexibility.",
-    image: "https://images.unsplash.com/photo-1554232456-8727aae91df4?auto=format&fit=crop&w=500&q=80",
+    image: StickCurtainWall,
    },
   {
      title: "Point-Supported Glazing",
