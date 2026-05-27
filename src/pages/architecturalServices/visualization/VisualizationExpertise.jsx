@@ -1,12 +1,12 @@
 import React from 'react';
-import VisualizationExpertise1 from '../../../Assets/bimAssets/expertise1.jpg';
-import VisualizationExpertise2 from '../../../Assets/bimAssets/expertise2.jpg';
-import VisualizationExpertise3 from '../../../Assets/bimAssets/expertise3.jpg';
-import VisualizationExpertise4 from '../../../Assets/bimAssets/expertise4.jpg';
-import VisualizationExpertise5 from '../../../Assets/bimAssets/expertise5.webp';
-import VisualizationExpertise6 from '../../../Assets/bimAssets/expertise6.jpg';
-import VisualizationExpertise7 from '../../../Assets/bimAssets/expertise7.jpg';
-import VisualizationExpertise8 from '../../../Assets/bimAssets/expertise8.jpg';
+import VisualizationExpertise1 from '../../../assets/bimAssets/expertise1.jpg';
+import VisualizationExpertise2 from '../../../assets/bimAssets/expertise2.jpg';
+import VisualizationExpertise3 from '../../../assets/bimAssets/expertise3.jpg';
+import VisualizationExpertise4 from '../../../assets/bimAssets/expertise4.jpg';
+import VisualizationExpertise5 from '../../../assets/bimAssets/expertise5.webp';
+import VisualizationExpertise6 from '../../../assets/bimAssets/expertise6.jpg';
+import VisualizationExpertise7 from '../../../assets/bimAssets/expertise7.jpg';
+import VisualizationExpertise8 from '../../../assets/bimAssets/expertise8.jpg';
 
 const images = [
   VisualizationExpertise1,
