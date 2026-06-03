@@ -12,7 +12,7 @@ export default function MepWhyChooseUs() {
             Our Advantage
           </span>
           <h2 className="mt-3 text-3xl md:text-4xl font-extrabold text-neutral-900 tracking-tight">
-            Why Choose NaxusEDS for MEP Services?
+            Why Choose NexusEDS for MEP Services?
           </h2>
           <div className="mt-4 w-20 h-1 bg-[#A43025] mx-auto rounded-full"></div>
           <p className="mt-4 max-w-2xl mx-auto text-neutral-600 text-base md:text-lg">

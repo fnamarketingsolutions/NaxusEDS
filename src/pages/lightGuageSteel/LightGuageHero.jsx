@@ -21,7 +21,7 @@ export default function LightGuageHero() {
             <span className="text-[#A43025]">Steel Fabrication</span>
           </h1>
           <p className="text-gray-600 text-lg leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
-            NaxusEDS engineers cold-formed steel framing with CNC precision, rapid site assembly, and code-compliant connections for commercial and residential structures.
+            NexusEDS engineers cold-formed steel framing with CNC precision, rapid site assembly, and code-compliant connections for commercial and residential structures.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a 

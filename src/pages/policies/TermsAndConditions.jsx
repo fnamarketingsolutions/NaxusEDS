@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const sections = [
   {
     title: "Acceptance of Terms",
-    body: "By accessing the NaxusEDS website or engaging our steel fabrication, structural detailing, or BIM services, you agree to these Terms and Conditions. If you do not agree, please discontinue use of our platforms and services.",
+    body: "By accessing the NexusEDS website or engaging our steel fabrication, structural detailing, or BIM services, you agree to these Terms and Conditions. If you do not agree, please discontinue use of our platforms and services.",
   },
   {
     title: "Services Description",
-    body: "NaxusEDS provides engineering documentation, light gauge steel fabrication support, rebar detailing, architectural design assistance, and related technical deliverables. Scope, milestones, and fees are defined in separate proposals or master service agreements.",
+    body: "NexusEDS provides engineering documentation, light gauge steel fabrication support, rebar detailing, architectural design assistance, and related technical deliverables. Scope, milestones, and fees are defined in separate proposals or master service agreements.",
   },
   {
     title: "Client Responsibilities",
@@ -16,15 +16,15 @@ const sections = [
   },
   {
     title: "Intellectual Property",
-    body: "Unless otherwise agreed in writing, deliverables are licensed for the client's project use upon full payment. NaxusEDS retains rights to pre-existing methodologies, templates, and proprietary workflows used to produce the work.",
+    body: "Unless otherwise agreed in writing, deliverables are licensed for the client's project use upon full payment. NexusEDS retains rights to pre-existing methodologies, templates, and proprietary workflows used to produce the work.",
   },
   {
     title: "Limitation of Liability",
-    body: "Our liability is limited to fees paid for the specific engagement giving rise to the claim. NaxusEDS is not liable for indirect, consequential, or site execution damages arising from third-party construction decisions not performed by our team.",
+    body: "Our liability is limited to fees paid for the specific engagement giving rise to the claim. NexusEDS is not liable for indirect, consequential, or site execution damages arising from third-party construction decisions not performed by our team.",
   },
   {
     title: "Governing Law",
-    body: "These terms are governed by applicable laws in the jurisdiction specified in your signed agreement with NaxusEDS. Disputes should first be addressed through good-faith commercial negotiation.",
+    body: "These terms are governed by applicable laws in the jurisdiction specified in your signed agreement with NexusEDS. Disputes should first be addressed through good-faith commercial negotiation.",
   },
 ];
 
@@ -45,7 +45,7 @@ export default function TermsAndConditions() {
             Terms & Conditions
           </h1>
           <p className="mt-4 max-w-2xl text-base text-[#666] sm:text-lg">
-            Commercial terms governing use of NaxusEDS steel engineering, fabrication, and BIM services.
+            Commercial terms governing use of NexusEDS steel engineering, fabrication, and BIM services.
           </p>
         </div>
       </motion.section>
@@ -93,7 +93,7 @@ export default function TermsAndConditions() {
             to="/contact-us"
             className="text-sm font-semibold text-[#1a1a1a] no-underline hover:text-[#c0392b]"
           >
-            Contact NaxusEDS
+            Contact NexusEDS
           </Link>
         </motion.div>
       </div>

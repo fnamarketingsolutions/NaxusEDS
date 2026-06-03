@@ -42,7 +42,7 @@ export default function VisualizationExpertise() {
             >
               <img 
                 src={imgUrl} 
-                alt={`NaxusEDS 3D Architectural expertise render item ${i + 1}`}
+                alt={`NexusEDS 3D Architectural expertise render item ${i + 1}`}
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-slate-950/20 group-hover:bg-slate-950/40 transition-colors duration-300" />

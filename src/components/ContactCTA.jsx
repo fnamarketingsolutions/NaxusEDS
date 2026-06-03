@@ -104,7 +104,7 @@ const ContactCTA = () => {
             <div className="absolute inset-0 group-hover:bg-transparent transition-colors z-10 duration-500"></div>
             <img 
               src={contactImage}
-              alt="NaxusEDS Architectural Solutions" 
+              alt="NexusEDS Architectural Solutions" 
               className="w-full h-full object-cover object-center scale-100 group-hover:scale-105 transition-all duration-700 ease-out"
             />
           </motion.div>

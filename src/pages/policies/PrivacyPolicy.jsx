@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const sections = [
   {
     title: "Information We Collect",
-    body: "NaxusEDS may collect business contact details, project specifications, drawings, and communication records you submit through our website, email, or project portals. We use this information solely to deliver steel engineering, BIM, and fabrication documentation services.",
+    body: "NexusEDS may collect business contact details, project specifications, drawings, and communication records you submit through our website, email, or project portals. We use this information solely to deliver steel engineering, BIM, and fabrication documentation services.",
   },
   {
     title: "How We Use Your Data",
@@ -20,7 +20,7 @@ const sections = [
   },
   {
     title: "Your Rights",
-    body: "You may request access, correction, or deletion of personal data we hold, subject to contractual and legal retention requirements for active projects. Contact us at info@naxuseds.com for privacy-related inquiries.",
+    body: "You may request access, correction, or deletion of personal data we hold, subject to contractual and legal retention requirements for active projects. Contact us at info@NexusEDS.com for privacy-related inquiries.",
   },
   {
     title: "Policy Updates",
@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
     <main className="min-h-screen bg-white">
       <SectionHero
         title="Privacy Policy"
-        subtitle="How NaxusEDS protects your information across steel engineering and BIM engagements."
+        subtitle="How NexusEDS protects your information across steel engineering and BIM engagements."
       />
 
       <div className="mx-auto max-w-4xl px-6 pb-20 pt-4 sm:px-10">
@@ -78,7 +78,7 @@ export default function PrivacyPolicy() {
             to="/contact-us"
             className="text-sm font-semibold text-[#1a1a1a] no-underline hover:text-[#c0392b]"
           >
-            Contact NaxusEDS
+            Contact NexusEDS
           </Link>
         </motion.div>
       </div>

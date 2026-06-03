@@ -7,7 +7,7 @@ const reviews = [
   {
     name: "David Miller",
     role: "Principal Architect, Texas Development",
-    text: "NaxusEDS transformed our drafting workflow. Their attention to structural detail and quick response times allowed us to hit our construction deadlines without a single coordination error on site.",
+    text: "NexusEDS transformed our drafting workflow. Their attention to structural detail and quick response times allowed us to hit our construction deadlines without a single coordination error on site.",
     rating: 5,
     img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop"
   },

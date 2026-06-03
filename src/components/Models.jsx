@@ -16,7 +16,7 @@ export default function Models() {
           </h2>
           <div className="mt-4 w-20 h-1 bg-[#A43025] mx-auto rounded-full"></div>
           <p className="mt-4 max-w-2xl mx-auto text-neutral-600 text-base md:text-lg">
-            Flexible operational structures tailored by NaxusEDS to match your civil engineering project scale, risk profile, and resource requirements.
+            Flexible operational structures tailored by NexusEDS to match your civil engineering project scale, risk profile, and resource requirements.
           </p>
         </div>
 

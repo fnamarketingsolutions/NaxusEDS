@@ -41,7 +41,7 @@ const CivilEngineering = () => {
           </div>
 
           <p className="text-gray-500 text-sm md:text-base leading-relaxed max-w-xl font-light">
-            At NaxusEDS, we provide sustainable infrastructure drafting and civil engineering planning services. Our technical team transforms complex surveying data and topographical blueprints into master site layouts, optimized grading structures, and fully coordinated utility networks.
+            At NexusEDS, we provide sustainable infrastructure drafting and civil engineering planning services. Our technical team transforms complex surveying data and topographical blueprints into master site layouts, optimized grading structures, and fully coordinated utility networks.
           </p>
 
           {/* Capabilities Checklist Grid */}
@@ -80,7 +80,7 @@ const CivilEngineering = () => {
             {/* Native Image Component Tag */}
             <img 
               src={civilImage}
-              alt="NaxusEDS Civil Engineering Infrastructure Site Blueprint Plan" 
+              alt="NexusEDS Civil Engineering Infrastructure Site Blueprint Plan" 
               className="w-full h-full object-cover-contain object-center group-hover:white-0 scale-100 group-hover:scale-105 transition-all duration-700 ease-out"
             />
           </motion.div>

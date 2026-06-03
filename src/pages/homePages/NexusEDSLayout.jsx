@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { HiOutlineArrowRight } from 'react-icons/hi';
-import StructuralDesign from '../../assets/images/structural-image.jpg';
+import StructuralDesign from '../../assets/engineeringAssets/structural-image.jpg';
 
-const NaxusEDSLayout = () => {
+const NexusEDSLayout = () => {
   // 1. Engineering Drawing Services Data with custom layout images
   const engineeringServices = [
     { 
@@ -295,4 +295,4 @@ const NaxusEDSLayout = () => {
   );
 };
 
-export default NaxusEDSLayout;
+export default NexusEDSLayout;

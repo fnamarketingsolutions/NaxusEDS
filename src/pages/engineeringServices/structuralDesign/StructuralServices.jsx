@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { HiOutlineArrowRight } from 'react-icons/hi';
+import structuralSteelImage from '../../../assets/engineeringAssets/structural-image.jpg';
 
 const StructuralServices = () => {
   // Deep-dive structural design and detailing services data
@@ -13,7 +14,7 @@ const StructuralServices = () => {
     {
       title: "Structural Steel Framework",
       desc: "Advanced structural steel detailing, connection configuration, anchor bolt layouts, assembly plans, and highly precise shop fabrication drawings.",
-      img: "https://images.unsplash.com/photo-1581094288338-2314dddb7eed?q=80&w=400&auto=format&fit=crop"
+      img: structuralSteelImage
     },
     {
       title: "Foundation & Substructure Design",
@@ -83,7 +84,7 @@ const StructuralServices = () => {
                 <img 
                   src={service.img} 
                   alt={service.title} 
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 scale-100 group-hover:scale-105 transition-all duration-500 ease-out"
+                  className="w-full h-full object-cover scale-100 group-hover:scale-105 transition-all duration-500 ease-out"
                 />
               </div>
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const feedbackList = [
   {
-    quote: "NaxusEDS transformed our architectural sketches into a spatial 3D sequence that helped secure critical city approvals ahead of schedule.",
+    quote: "NexusEDS transformed our architectural sketches into a spatial 3D sequence that helped secure critical city approvals ahead of schedule.",
     client: "Principal Architect",
     company: "Metro Planning Group"
   },

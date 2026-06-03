@@ -69,7 +69,7 @@ export default function MepDesignAndStats() {
             </h2>
             <div className="w-16 h-1 bg-[#A43025] rounded-full"></div>
             <p className="text-neutral-600 text-base md:text-lg leading-relaxed pt-2">
-              At <span className="font-bold text-neutral-900">NaxusEDS</span>, we're at the forefront of integrating Mechanical, Electrical, and Plumbing (MEP) engineering services into the fabric of modern design and construction. Our mission is to bring your building into the future through innovative design, sustainable practices, and a deep understanding of the construction industry.
+              At <span className="font-bold text-neutral-900">NexusEDS</span>, we're at the forefront of integrating Mechanical, Electrical, and Plumbing (MEP) engineering services into the fabric of modern design and construction. Our mission is to bring your building into the future through innovative design, sustainable practices, and a deep understanding of the construction industry.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function MepDesignAndStats() {
         {/* Header Heading */}
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-neutral-950 tracking-tight">
-            Why Choose NaxusEDS for Your MEP Design Services?
+            Why Choose NexusEDS for Your MEP Design Services?
           </h2>
         </div>
 

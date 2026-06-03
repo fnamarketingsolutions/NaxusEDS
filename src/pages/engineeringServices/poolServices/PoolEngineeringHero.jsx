@@ -5,7 +5,7 @@ import poolHeroImage from '../../../assets/engineeringAssets/pool-hero.jpg';
 
  const PoolEngineeringHero = () =>
    {
-  // All pool layout configuration, copy changes for NaxusEDS, and styling contained inside a single component and return statement
+  // All pool layout configuration, copy changes for NexusEDS, and styling contained inside a single component and return statement
   return (
   <>
     <section className="relative w-full min-h-[85vh] lg:min-h-[75vh] bg-white flex items-center font-sans overflow-hidden py-12 lg:py-0 px-4 md:px-8">
@@ -21,7 +21,7 @@ import poolHeroImage from '../../../assets/engineeringAssets/pool-hero.jpg';
           </h1>
           
           <p className="mt-6 text-base md:text-lg text-neutral-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            NaxusEDS delivers world-class aquatic engineering blueprints. From advanced commercial high-load filtration grids and surge tank optimization to immaculate structural concrete shell compliance, we design water systems built to last.
+            NexusEDS delivers world-class aquatic engineering blueprints. From advanced commercial high-load filtration grids and surge tank optimization to immaculate structural concrete shell compliance, we design water systems built to last.
           </p>
           
           {/* Action Button */}
@@ -42,13 +42,13 @@ import poolHeroImage from '../../../assets/engineeringAssets/pool-hero.jpg';
           <div className="w-full h-full rounded-2xl overflow-hidden relative">
             <img 
               src={poolHeroImage}
-              alt="NaxusEDS Luxury Commercial Pool System Design and Filtration Integration" 
+              alt="NexusEDS Luxury Commercial Pool System Design and Filtration Integration" 
               className="w-full h-full object-cover-contain object-center"
             />
             {/* Status overlay badge */}
             <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur-sm border border-neutral-200 px-4 py-2 rounded-lg flex items-center gap-2 shadow-sm">
               <span className="w-2.5 h-2.5 rounded-full bg-[#A43025]"></span>
-              <span className="text-xs font-bold text-neutral-800 tracking-wide">NaxusEDS Aquatic Engineering</span>
+              <span className="text-xs font-bold text-neutral-800 tracking-wide">NexusEDS Aquatic Engineering</span>
             </div>
           </div>
         </div>

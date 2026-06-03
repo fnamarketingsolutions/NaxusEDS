@@ -54,7 +54,7 @@ export default function WhyChooseFacade() {
             Engineering Excellence
           </span>
           <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl uppercase">
-            Why Choose NaxusEDS Facade Systems
+            Why Choose NexusEDS Facade Systems
           </h2>
           <div className="h-1 w-20 bg-[#A43025] mx-auto mt-4" />
         </div>

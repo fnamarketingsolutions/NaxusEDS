@@ -19,7 +19,7 @@ export default function MepServicesBlocks() {
           </h2>
           <div className="mt-4 w-20 h-1 bg-[#A43025] mx-auto rounded-full"></div>
           <p className="mt-4 max-w-2xl mx-auto text-neutral-600 text-base md:text-lg">
-            NaxusEDS delivers end-to-end building systems engineering, optimized for long-term sustainability, energy efficiency, and total code compliance.
+            NexusEDS delivers end-to-end building systems engineering, optimized for long-term sustainability, energy efficiency, and total code compliance.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ export default function MepServicesBlocks() {
                   Mechanical Engineering
                 </h3>
                 <p className="text-neutral-600 text-sm leading-relaxed mb-4">
-                  Advanced climate control solutions designed by NaxusEDS. We specialize in high-efficiency central air conditioning layouts, ventilation distribution, indoor air quality optimization, and energy recovery infrastructure loops.
+                  Advanced climate control solutions designed by NexusEDS. We specialize in high-efficiency central air conditioning layouts, ventilation distribution, indoor air quality optimization, and energy recovery infrastructure loops.
                 </p>
                 <ul className="space-y-2 mt-4 pt-4 border-t border-neutral-100">
                   {["Chilled Water Plant Layouts", "Variable Refrigerant Flow (VRF)", "Cleanroom & Exhaust Ventilation"].map((item, index) => (
@@ -84,7 +84,7 @@ export default function MepServicesBlocks() {
                   Electrical Engineering
                 </h3>
                 <p className="text-neutral-600 text-sm leading-relaxed mb-4">
-                  Comprehensive infrastructure planning. NaxusEDS designs heavily optimized structural heavy power distribution grids, secure emergency back-up generator setups, and tailored building network security grids.
+                  Comprehensive infrastructure planning. NexusEDS designs heavily optimized structural heavy power distribution grids, secure emergency back-up generator setups, and tailored building network security grids.
                 </p>
                 <ul className="space-y-2 mt-4 pt-4 border-t border-neutral-100">
                   {["Substation & Transformative Layouts", "Photometric Interior Lighting", "ELV & Structured Low-Voltage Wiring"].map((item, index) => (

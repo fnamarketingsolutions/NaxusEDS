@@ -19,7 +19,7 @@ const AboutSection = () => {
             {/* Main Image */}
             <img 
               src={architecturalImage} 
-              alt="About NaxusEDS" 
+              alt="About NexusEDS" 
               className="w-full h-[400px] md:h-[550px] object-cover "
             />
             {/* Decorative Accent Square */}
@@ -44,16 +44,16 @@ const AboutSection = () => {
 
           <h2 className="text-[#1a1a1a] text-3xl md:text-5xl font-bold mb-6 leading-tight">
             Innovating Engineering <br /> 
-            Solutions with <span className="text-[#A43025]">NaxusEDS</span>
+            Solutions with <span className="text-[#A43025]">NexusEDS</span>
           </h2>
 
           <div className="space-y-6">
             <p className="text-[#777] text-base md:text-lg font-normal leading-relaxed">
-              NaxusEDS is a premier architectural and engineering design firm committed to delivering high-precision technical solutions. With a focus on accuracy and innovation, we bridge the gap between complex conceptual designs and practical engineering execution.
+              NexusEDS is a premier architectural and engineering design firm committed to delivering high-precision technical solutions. With a focus on accuracy and innovation, we bridge the gap between complex conceptual designs and practical engineering execution.
             </p>
             
             <p className="text-[#777] text-base md:text-lg font-normal leading-relaxed">
-              Our multidisciplinary team specializes in BIM services, structural analysis, and comprehensive CAD drafting. At NaxusEDS, we pride ourselves on a client-centric approach, ensuring that every project—from small-scale residential designs to massive industrial infrastructures—is handled with unmatched professional integrity and technological excellence.
+              Our multidisciplinary team specializes in BIM services, structural analysis, and comprehensive CAD drafting. At NexusEDS, we pride ourselves on a client-centric approach, ensuring that every project—from small-scale residential designs to massive industrial infrastructures—is handled with unmatched professional integrity and technological excellence.
             </p>
           </div>
 

@@ -6,7 +6,7 @@ const facadeFaqs = [
     a: "Unitized systems are ideal for fast-paced, high-rise construction because modules are factory-glazed and pre-assembled. Stick systems are preferred for low-to-mid-rise projects with complex geometries that require piece-by-piece field adjustments."
   },
   {
-    q: "How does NaxusEDS ensure structural compliance with high peak wind loads?",
+    q: "How does NexusEDS ensure structural compliance with high peak wind loads?",
     a: "We perform rigorous structural wind load analysis based on local boundary regulations, building height, and geographical topography. This data directly dictates the required glass thickness, profile depth, and anchoring bracket engineering."
   },
   {

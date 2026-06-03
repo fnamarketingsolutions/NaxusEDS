@@ -11,7 +11,7 @@ const CivilWhyChoose = () => {
             Core Capabilities
           </span>
           <h2 className="mt-3 text-3xl md:text-4xl font-extrabold text-neutral-900 tracking-tight">
-            Why Choose NaxusEDS for Civil Engineering?
+            Why Choose NexusEDS for Civil Engineering?
           </h2>
           <div className="mt-4 w-20 h-1 bg-[#A43025] mx-auto rounded-full"></div>
           <p className="mt-4 max-w-2xl mx-auto text-neutral-600 text-base md:text-lg">

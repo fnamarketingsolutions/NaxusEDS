@@ -31,7 +31,7 @@ export default function VisualizationWhyChoose() {
         {/* Header Block */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-sm font-bold tracking-wider text-[#A43025] uppercase">Strategic Leverage</span>
-          <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl uppercase">Why Source NaxusEDS For 3D Visuals</h2>
+          <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl uppercase">Why Source NexusEDS For 3D Visuals</h2>
           <div className="h-1 w-20 bg-[#A43025] mx-auto mt-4" />
         </div>
 

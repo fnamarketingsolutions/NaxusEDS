@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const reviews = [
   {
     quote:
-      "NaxusEDS delivered code-compliant architectural drafting way ahead of our deadline. Their meticulous attention to localized drafting standards preserved our design intent completely.",
+      "NexusEDS delivered code-compliant architectural drafting way ahead of our deadline. Their meticulous attention to localized drafting standards preserved our design intent completely.",
     author: "Sarah Jenkins",
     role: "Principal Architect, Apex Studio",
     image:
@@ -12,7 +12,7 @@ const reviews = [
   },
   {
     quote:
-      "The structural BIM model accuracy provided by NaxusEDS was flawless. It saved us hundreds of potential field mitigation hours during our deep structural foundation phase.",
+      "The structural BIM model accuracy provided by NexusEDS was flawless. It saved us hundreds of potential field mitigation hours during our deep structural foundation phase.",
     author: "Marcus Vance",
     role: "Lead Structural Engineer, BuildCorp",
     image:

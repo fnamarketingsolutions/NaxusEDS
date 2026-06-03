@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import AboutSection from "./AboutSection";
-import NaxusEDSLayout from "./NexusEDSLayout";
+import NexusEDSLayout from "./NexusEDSLayout";
 import WhyChoose from "./WhyChoose";
 import ContactCTA from "../../components/ContactCTA";
 import Reviews from "./Reviews";
@@ -76,7 +76,7 @@ const HeroSection = () => {
         transition={{ duration: 0.7, delay: 0.35 }}
         className="mb-10 max-w-xl text-base leading-relaxed font-normal text-[#666]"
       >
-        NaxusEDS serves over{" "}
+        NexusEDS serves over{" "}
         <strong className="font-semibold text-[#1a1a1a]">
           150+ active clients
         </strong>{" "}
@@ -211,7 +211,7 @@ const HeroSection = () => {
 </section>
 
     <AboutSection/>
-    <NaxusEDSLayout/>
+    <NexusEDSLayout/>
     <WhyChoose/>
     <Reviews/>
     <ContactCTA/>

@@ -50,7 +50,7 @@ export default function RebarFabricationHero() {
               </h1>
               <div className="h-1 w-16 bg-[#A43025] rounded-full" />
               <p className="text-base text-slate-600 max-w-2xl leading-relaxed">
-                NaxusEDS delivers premium, high-performance reinforced concrete and steel reinforcement packages engineered for foundational stability across residential, infrastructure, and heavy commercial environments.
+                NexusEDS delivers premium, high-performance reinforced concrete and steel reinforcement packages engineered for foundational stability across residential, infrastructure, and heavy commercial environments.
               </p>
             </div>
 

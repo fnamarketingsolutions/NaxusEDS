@@ -7,14 +7,14 @@ const CivilReviews = () => {
     {
       id: 1,
       heading: "Exceptional Structural Integrity",
-      text: "NaxusEDS transformed our commercial complex blueprint. Their civil engineering team identified structural optimization points that cut material overhead by 14% while strictly upgrading load tolerance profiles. Outstanding communication throughout the structural detailing phase.",
+      text: "NexusEDS transformed our commercial complex blueprint. Their civil engineering team identified structural optimization points that cut material overhead by 14% while strictly upgrading load tolerance profiles. Outstanding communication throughout the structural detailing phase.",
       author: "Ar. Rajesh Malhotra",
       designation: "Principal Architect, Vastu Builders"
     },
     {
       id: 2,
       heading: "Flawless Foundation Design",
-      text: "Dealing with high water tables on our industrial site was a massive hurdle. NaxusEDS provided specialized deep foundation modeling and precise soil retention schematics. The structural safety approvals went through on the first submission.",
+      text: "Dealing with high water tables on our industrial site was a massive hurdle. NexusEDS provided specialized deep foundation modeling and precise soil retention schematics. The structural safety approvals went through on the first submission.",
       author: "Vikramjit Singh",
       designation: "Project Director, Apex Infrastructure"
     },

@@ -20,7 +20,7 @@ export default function FacadeHero() {
               Future Of Facades
             </h1>
             <p className="text-lg sm:text-xl font-bold text-[#A43025] leading-snug">
-              Precision Building Envelope Solutions by NaxusEDS
+              Precision Building Envelope Solutions by NexusEDS
             </p>
           </div>
 
@@ -35,7 +35,7 @@ export default function FacadeHero() {
           </p>
 
           <p className="text-sm sm:text-base text-slate-800 font-medium leading-relaxed pt-2 border-t border-slate-200">
-            NaxusEDS: Leading the way in innovative building enclosure systems, detailed 
+            NexusEDS: Leading the way in innovative building enclosure systems, detailed 
             engineering, and sustainable facade development.
           </p>
           
@@ -56,7 +56,7 @@ export default function FacadeHero() {
             <div className="relative overflow-hidden aspect-[4/3] sm:aspect-[16/11] lg:aspect-[4/3] border border-slate-300">
               <img
                 src={facadeImage}
-                alt="NaxusEDS High-rise modern glass facade building engineering structure"
+                alt="NexusEDS High-rise modern glass facade building engineering structure"
                 className="w-full h-full object-cover"
               />
             </div>

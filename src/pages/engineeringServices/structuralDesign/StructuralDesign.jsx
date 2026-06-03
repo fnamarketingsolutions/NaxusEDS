@@ -73,7 +73,7 @@ const StructuralDesign = () => {
             {/* Structural Blueprint Drawing Image Reference Tag */}
             <img 
               src={structuralImage}
-              alt="NaxusEDS Structural Engineering Detailing" 
+              alt="NexusEDS Structural Engineering Detailing" 
               className="w-full h-full object-cover-contain object-center group-hover:white-0 scale-100 group-hover:scale-105 transition-all duration-700 ease-out"
             />
           </motion.div>

@@ -59,7 +59,7 @@ const CivilProjects = () => {
                   {proj.title}
                 </h3>
                 <p className="text-neutral-500 text-xs mt-2">
-                  Engineered to perfection meeting rigid master compliance directives by the NaxusEDS deployment desk.
+                  Engineered to perfection meeting rigid master compliance directives by the NexusEDS deployment desk.
                 </p>
               </div>
             </div>

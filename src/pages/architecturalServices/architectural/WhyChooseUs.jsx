@@ -37,11 +37,11 @@ export default function WhyChooseUs() {
         {/* Heading */}
         <div className="max-w-3xl mb-16">
           <span className="text-sm font-bold tracking-wider text-[#A43025] uppercase">
-            The NaxusEDS Value
+            The NexusEDS Value
           </span>
 
           <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-            Why Forward-Thinking Developers Rely on NaxusEDS
+            Why Forward-Thinking Developers Rely on NexusEDS
           </h2>
         </div>
 

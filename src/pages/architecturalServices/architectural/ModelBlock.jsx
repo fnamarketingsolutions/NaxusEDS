@@ -21,7 +21,7 @@ export default function ModelBlock() {
             <span className="text-xs font-bold tracking-widest text-[#A43025] uppercase">Advanced Prototyping</span>
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">High-Fidelity Architectural Modeling</h2>
             <p className="text-slate-600 text-base sm:text-lg leading-relaxed">
-              At NaxusEDS, we build comprehensive virtual and structural prototypes. Our highly detailed architectural structural models bridge the gap between abstract blueprints and tangible physical geometry.
+              At NexusEDS, we build comprehensive virtual and structural prototypes. Our highly detailed architectural structural models bridge the gap between abstract blueprints and tangible physical geometry.
             </p>
 
             <div className="grid grid-cols-2 gap-6 pt-4">
